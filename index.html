@@ -72,9 +72,6 @@
     <!-- End Navbar  -->
 
     <!-- Start heading -->
-     <!-- <section class="sm:mx-14 mx-4 sm:my-16 my-6 font-sora 
-     bg-[url('./c1-assets/cat-big.png')] bg-bottom bg-contain  bg-no-repeat h-screen sm:flex-none flex-col "> -->
-
      <section class=" sm:mx-14 mx-4 sm:my-16 my-6 font-sora bg-[url('./c1-assets/cat-big.png')] bg-contain bg-bottom bg-no-repeat min-h-[520px] sm:min-h-[700px] flex flex-col">
 
 
@@ -303,10 +300,11 @@
       </section>
 
       <!-- Low prize section  -->
-       <section class="font-sora sm:mx-14 mx-4 sm:my-16 my-28">
+       <section class="font-sora sm:mx-14 mx-4 mb-[500px] mb- border border-green-600">
+
         <h3 class="font-adlam-display text-3xl mb-12">Everyday low Prize</h3>
 
-        <div class="grid sm:grid-cols-3">
+        <div class="grid sm:grid-cols-3 gap-2">
 
 
             <div class="flex sm:col-span-2 relative  border border-red-500 rounded-lg  bg-gradient-to-br from-pink-300 to-cyan-200
@@ -340,7 +338,13 @@
 
 
        <!-- News section start  -->
-       <section class="flex flex-col sm:flex-row items-center  font-sora sm:mx-14 mx-4 sm:my-16 my-6  bg-[#FFF9F4] py-10 border border-violet-700">
+      <section class="relative">
+        <div class="absolute  sm:-bottom-72 -bottom-96 
+        
+        flex flex-col sm:flex-row items-center  font-sora sm:w-11/12 sm:mx-14 mx-auto sm:my-16 my-8  
+        
+        bg-[#FFF9F4] py-10 border border-violet-700 rounded-xl ">
+
             <div class="mx-14">
                 <img  src="./c1-assets/cute-pet-mid.png" alt="">
             </div>
@@ -349,14 +353,49 @@
 
                 <p class="text-xl my-4">Exclusive training tips, ticks, product deals and more.</p>
 
-                <input class="block w-80 p-6 sm:mx-0 mx-auto" type="email" placeholder="Enter email">
+                <input class="block w-96 p-6 sm:mx-0 mx-auto" type="email" placeholder="Enter email">
 
                 <button class="border rounded-lg bg-btn-bg-color px-8 py-2 my-5">Subscribe</a>
                 </button>
             </div>
-       </section>
+        </div>
+      </section>
   </main>
 
-  
+  <!-- start footer section  -->
+  <footer class="font-sora bg-card-bg-color">
+    <div class="sm:mx-14 mx-4 flex sm:justify-between flex-col pt-96">
+        <div class="">
+            <div class="flex items-center gap-2">
+                <img src="./c1-assets/logo-footer.png" alt="">
+                <p class="font-sora text-2xl">
+                    Browse<span class="text-logo-color">4</span>Pets
+                </p>
+                </div>
+            <p class="my-6">Discover a world of treats, toys, and <br> essentials  handpicked for your furry <br> friends</p>
+        </div>
+
+        <div class="">
+            <ul class="flex flex-col gap-3 md:gap-4 font-sora text-xl">
+                <li>Find a pet</li>
+                <li>Breeds</li>
+                <li>Contact Us</li>
+                <li>Urgent</li>
+            </ul>
+        </div>
+
+        <div class="py-14">
+            <p class="text-lg my-3">Follow Us</p>
+            <div class="text-4xl">
+                <i class="fa-brands fa-facebook mr-3"></i>
+                <i class="fa-brands fa-instagram mr-3"></i>
+                <i class="fa-brands fa-linkedin mr-3"></i>
+                <i class="fa-brands fa-youtube"></i>
+            </div>
+        </div>
+    </div>
+  </footer>
+
+
 </body>
 </html>
