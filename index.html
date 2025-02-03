@@ -36,9 +36,14 @@
         }
     </style>
 </head>
+
+
+
+
+
 <body>
     <!-- Start Header section  -->
-  <header class="hidden">
+  <header>
     <!--Start NavBar -->
     <nav class="bg-[#FFF9F4] mx-auto border-2  border-gray-500 sm:border-none">
         <div class="flex justify-between items-center  py-4 sm:mx-14 mx-4">
@@ -71,14 +76,17 @@
     </nav>
     <!-- End Navbar  -->
 
+   
     <!-- Start heading -->
-     <section class=" sm:mx-14 mx-4 sm:my-16 my-6 font-sora bg-[url('./c1-assets/cat-big.png')] bg-contain bg-bottom bg-no-repeat min-h-[520px] sm:min-h-[700px] flex flex-col">
+     <section class="
+     sm:mx-14 mx-4 sm:my-16 my-6 font-sora bg-[url('./c1-assets/cat-big.png')] bg-contain bg-bottom bg-no-repeat min-h-[520px] sm:min-h-[700px] flex flex-col">
 
 
-        <h1 class="font-adlam-display text-5xl">Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
-        <p class="my-8">Discover a world of treats, toys, and essentials handpicked <br> for your furry friends. Shop now and make tails wag with joy!</p>
+        <h1 class="font-adlam-display text-5xl animate-bounce">
+            Pamper Your Pet, <br> Because They Deserve <br> the Bes</h1>
+        <p class="my-8">Discover a world of treats, toys, and essentials handpicked  for <br>your furry friends. Shop now and make tails wag with joy!</p>
 
-        <button class="text-left">
+        <button class="text-left animate-pulse">
             <a href="#" class="border rounded-lg bg-btn-bg-color px-6 py-2">Find a pet</a>
         </button>
      </section>
@@ -90,7 +98,7 @@
 <!-- Start main section  -->
   <main>
     <!-- Catagory Card section  -->
-     <section class="hidden font-sora sm:mx-14 mx-4 sm:my-16 my-6">
+     <section class="font-sora sm:mx-14 mx-4 sm:my-16 my-6">
         <h3 class="font-adlam-display text-4xl my-8">Browse By Categories</h3>
 
         <!-- all categorise cards  -->
@@ -309,13 +317,6 @@
         </div>
       </section>
 
-
-
-
-
-
-
-
       <!-- urgent Doctor section  -->
        <section class="font-sora sm:mx-14 mx-4 mt-20">
 
@@ -331,8 +332,8 @@
                 </div>
                 <div class="grid grid-cols-3 gap-2">
                     <img class="sm:h-72 h-24 rounded-md" src="./c1-assets/sick01.jpg" alt="">
-                    <img class="sm:h-72 h-24 rounded-md" src="./c1-assets/sick02.jpg" alt="">
-                    <img class="sm:h-72 h-24 rounded-md" src="./c1-assets/sick03.jpg" alt="">
+                    <img class="sm:h-72 h-24 rounded-md" src="./c1-assets/vaccine.jpg" alt="">
+                    <img class="sm:h-72 h-24 rounded-md" src="./c1-assets/sick04.jpg" alt="">
                 </div>
             </div>
 
@@ -344,30 +345,15 @@
                 " src="./c1-assets/animalDoctor.jpg" alt="">
 
                 <div class="my-10 sm:mr-24 text-right ">
-                   <button class="border border-slate-600 py-2 px-7 rounded-lg bg-slate-300">About More..</button>
+                   <button class="hover:bg-slate-500 hover:text-white border border-slate-600 py-2 px-7 rounded-lg bg-slate-300">About More..</button>
 
-                   <button class="border border-red-00 py-2 px-8 ml-4 rounded-lg bg-red-500 text-white">Urgent Contact  <i class="fa-solid fa-arrow-right ml-2 -rotate-45"></i></button>
+                   <button class="animate-pulse hover:bg-green-500 border border-red-00 py-2 px-7 ml-4 rounded-lg bg-red-500 text-white">Urgent Contact  <i class="fa-solid fa-arrow-right ml-2 -rotate-45"></i></button>
                    
                 </div>  
             </div>
 
         </div>
        </section>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
       <!-- Low prize section  -->
        <section class="font-sora sm:mx-14 mx-4 mt-36 sm:mb-[280px] mb-[420px]">
@@ -397,11 +383,11 @@
             <div class="sm:col-span-2 bg-gradient-to-br from-pink-100 to-yellow-200 rounded-lg pl-8 py-10 w-full">
                 <div class="">
                     <h3 class="font-adlam-display text-2xl my-4">T-Shirt for Dogs</h3>
-
                 </div>
                 <div class="flex overflow-hidden">
                 <p class="font-adlam-display text-5xl text-yellow-400">$7.99</p>
-                <img class="w-48 overflow-auto" src="./c1-assets/cute-pet-mid.png" alt=""></div>
+                <img class="w-48 overflow-auto" src="./c1-assets/cute-pet-mid.png" alt="">
+                </div>
             </div>
         </div>
        </section>
@@ -409,10 +395,8 @@
 
        <!-- News section start  -->
       <section class="relative mx-4">
-        <div class="absolute  sm:-bottom-72 -bottom-96 
-        
-        flex flex-col sm:flex-row items-center  font-sora sm:w-11/12 sm:mx-14 mx-auto sm:my-16 my-8  
-        
+        <div class="absolute  sm:-bottom-72 -bottom-96 flex flex-col sm:flex-row items-center  
+        font-sora sm:w-11/12 sm:mx-14 mx-auto sm:my-16 my-8  
         bg-[#FFF9F4] py-10 border border-violet-700 rounded-xl ">
 
             <div class="mx-14">
@@ -431,6 +415,11 @@
         </div>
       </section>
   </main>
+
+
+
+
+
 
   <!-- start footer section  -->
   <footer class="font-sora bg-card-bg-color">
@@ -465,7 +454,5 @@
         </div>
     </div>
   </footer>
-
-
 </body>
 </html>
